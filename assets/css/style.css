@@ -1,0 +1,55 @@
+/*font Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Page anchor btn*/
+:root {
+    --motion-ease: cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    --motion-duration: 0.3s;
+}
+
+/* Asterisk wildcard selectort override default styles added by browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #06191D;
+}
+
+#logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sua-logo {
+    width: 250px;
+    margin: 30px;
+
+}
+
+.a-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.pages-btns {
+    box-shadow: 3px 4px 0px 0px #805f07;
+    background: linear-gradient(to bottom, #d7c181 10%, #DECD9C 90%);
+    background-color: #DECD9C;
+    border-radius: 5px;
+    border: 1px solid #856b26;
+    cursor: pointer;
+    color: #06191D;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    padding: 3px 15px;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px auto 0;
+    
+}
+
