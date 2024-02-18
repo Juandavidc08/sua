@@ -1,11 +1,6 @@
 /*font Montserrat*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/*Page anchor btn*/
-:root {
-    --motion-ease: cubic-bezier(0.68, -0.6, 0.32, 1.6);
-    --motion-duration: 0.3s;
-}
 
 /* Asterisk wildcard selectort override default styles added by browser */
 * {
@@ -24,7 +19,7 @@ body {
     align-items: center;
 }
 #sua-logo {
-    width: 250px;
+    width: 200px;
     margin: 30px;
 
 }
@@ -49,7 +44,43 @@ body {
     padding: 3px 15px;
     text-decoration: none;
     text-align: center;
-    margin: 20px auto 0;
+    margin: 15px auto 0;
     
 }
 
+.quote{
+    color:#fff;
+    margin: 15px 30px;
+    text-align: center;
+
+}
+
+.info{
+    color: #DECD9C;
+    text-align: center;
+    font-weight:bold;
+    margin: 0 30px;
+    font-size: 115%;
+}
+
+#derechos{
+    color:#fff;
+    text-align: center;
+    margin: 0 30px;
+    font-size: x-small;
+
+
+}
+
+#social-networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    font-size: 150%; 
+}
+
+.fa-brands{
+    color:#856b26;
+    padding: 20px;
+}
