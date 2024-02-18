@@ -48,10 +48,17 @@ body {
     
 }
 
+.pages-btns:hover {
+    transform: scale(1.15); /* Increase the size by 5% */
+}
+
+
 .quote{
     color:#fff;
     margin: 15px 30px;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 80%;
 
 }
 
@@ -60,14 +67,16 @@ body {
     text-align: center;
     font-weight:bold;
     margin: 0 30px;
-    font-size: 115%;
+    font-size: 100%;
+    font-family: "Montserrat", sans-serif;
 }
 
 #derechos{
     color:#fff;
     text-align: center;
-    margin: 0 30px;
+    margin: 0px;
     font-size: x-small;
+    font-family: "Montserrat", sans-serif;
 
 
 }
@@ -83,4 +92,8 @@ body {
 .fa-brands{
     color:#856b26;
     padding: 20px;
+}
+
+.fa-brands:hover {
+    transform: scale(1.15); /* Increase the size by 5% */
 }
