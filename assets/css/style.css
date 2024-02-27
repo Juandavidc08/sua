@@ -159,14 +159,15 @@ body {
 
 .aceites-ttl{
     text-align: center;
+    
 }
 
 #product-container-a {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     grid-template-rows: auto auto; /* Two rows, adjust 'auto' as needed */
-    gap: 30px; /* Adjust the gap between columns */
-    margin: 60px;
+    gap: 20px; /* Adjust the gap between columns */
+    margin: 30px 60px;
 }
 
 #product-container-a div {
@@ -183,13 +184,23 @@ body {
     transform: scale(1.15);
 }
 
-#product-container-a .image-container {
+
+.image-container {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 70%;
+    width: 90%;
     display: flex;
+    flex-direction: column; /* This ensures stacking items vertically */
     justify-content: center;
     align-items: center;
-    background-color:rgba(0, 0, 0, .25); /* Grey background color */
-    height: 70%; 
-    width: 100%;
+    border-radius: 15px;
+}
+
+.price {
+    margin-top: 2px; /* Adjust the spacing between image and price */
+    z-index: 1;
+
 }
 
 /* Larger devices (laptops and desktops, 992px and up)*/
