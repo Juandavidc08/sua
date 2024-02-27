@@ -50,6 +50,7 @@ body {
 
 .pages-btns:hover {
     transform: scale(1.15); /* Increase the size by 5% */
+    background:#b3943a;
 }
 
 
@@ -96,4 +97,39 @@ body {
 
 .fa-brands:hover {
     transform: scale(1.15); /* Increase the size by 5% */
+}
+
+/* Navbar */
+
+#logo-sua{
+    width: 150px;
+    margin: 5px;
+}
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
 }
