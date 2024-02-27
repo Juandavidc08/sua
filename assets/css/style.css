@@ -162,25 +162,24 @@ body {
     
 }
 
-#product-container-a {
+.product-container-a {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     grid-template-rows: auto auto; /* Two rows, adjust 'auto' as needed */
-    gap: 20px; /* Adjust the gap between columns */
-    margin: 30px 60px;
+    gap: 20px; /* Adjust the gap between columns */    margin: 40px 60px;
 }
 
-#product-container-a div {
+.product-container-a div {
     text-align: center; /* Center the content within each column */
 }
 
-#product-container-a img {
+.product-container-a img {
     max-height: 200px; /* Adjust the height as needed */
     width: auto; /* Maintain aspect ratio */
     z-index: 1; /* Ensure the image is above the background */
 }
 
-#product-container-a img:hover{
+.product-container-a img:hover{
     transform: scale(1.15);
 }
 
@@ -200,7 +199,34 @@ body {
 .price {
     margin-top: 2px; /* Adjust the spacing between image and price */
     z-index: 1;
+    color: #fff;
 
+}
+
+/*difusores*/
+.difusores{
+    background-color:rgba(0, 0, 0, 0.25);
+    height: 100px;
+    background-size: 190%;
+    color: #fff;
+	text-shadow: 0px 4px 4px #000000;
+    font-family: "Montserrat", sans-serif;
+}
+
+#difusores-img{
+    height: 100px;
+}
+
+.link{
+    text-decoration: none;
+    color: #DECD9C;
+}
+
+.cuidado-1{
+    color: #DECD9C;
+    font-family: "Montserrat", sans-serif; 
+    text-align: center;
+    margin: 5px 20px 1px 10px;
 }
 
 /* Larger devices (laptops and desktops, 992px and up)*/
@@ -217,14 +243,21 @@ body {
         
     }
 
-    #product-container-a {
+    .product-container-a {
         grid-template-columns: repeat(5, 1fr); /* Five equal columns */
         grid-template-rows: auto auto; /* Two rows, adjust 'auto' as needed */
     }
-    #product-container-a .image-container {
+    .product-container-a .image-container {
 
         height: 70%; 
         width: 70%;
+    
+    }
+    
+    .difusores{
+            text-align: center;
+            font-size: 150%;
+        }
 
     #social-networks{
         font-size: 30px;
