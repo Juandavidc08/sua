@@ -106,6 +106,7 @@ body {
     margin: 5px;
 }
 
+
 .navalert-container {
     position: absolute;
     top: 0;
@@ -132,4 +133,35 @@ body {
 
 .navbar .navbar-nav a {
     font-weight: bold;
+}
+
+/*Product page*/
+
+/*Hero text*/
+.callout{
+    background-color: #217d9e89;
+    background-image: url('../images/bg-lavanda.jpg');
+    color:#fff;
+    background-size: 190%;
+    color: #DECD9C;
+	text-shadow: 0px 4px 4px #000000;
+    
+}
+/* Larger devices (laptops and desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+
+    .nav-titles{
+        margin-left: 800px;
+
+    }
+
+    .callout{
+        background-size: 110%;  
+        text-shadow: 0px 6px 6px #000000;
+        
+    }
+
+    #social-networks{
+        font-size: 30px;
+    }
 }
