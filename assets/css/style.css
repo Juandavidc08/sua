@@ -197,7 +197,7 @@ body {
 }
 
 .price {
-    margin-top: 2px; /* Adjust the spacing between image and price */
+    margin-top: 10px; /* Adjust the spacing between image and price */
     z-index: 1;
     color: #fff;
 
@@ -229,6 +229,21 @@ body {
     margin: 5px 20px 1px 10px;
 }
 
+/*otros productos*/
+
+
+#pomada-natural, 
+#pomada-alivio,
+#pasta-dental,
+#desodorante,
+#desinfectante {
+    width: 100px;
+    margin-top: 70px;
+}
+
+#catalogo-img {
+    height: 100px;
+}
 /* Larger devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
 
@@ -257,6 +272,14 @@ body {
     .difusores{
             text-align: center;
             font-size: 150%;
+        }
+
+
+        #pomada-natural, 
+        #pomada-alivio,
+        #pasta-dental,
+        #desodorante {
+            width: 150px;
         }
 
     #social-networks{
