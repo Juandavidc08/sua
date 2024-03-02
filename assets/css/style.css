@@ -16,19 +16,6 @@ body {
     overflow-x: hidden;
 }
 
-.navbar {
-    margin-bottom: 0;
-    width: 100vw; /* Change width to viewport width */
-    background-color: rgba(0, 0, 0, .25);
-    border: 0;
-    padding: 10px 0; /* Adjust padding as needed */
-}.navbar {
-    margin-bottom: 0;
-    width: 100vw; /* Change width to viewport width */
-    background-color: rgba(0, 0, 0, .25);
-    border: 0;
-    padding: 10px 0; /* Adjust padding as needed */
-}
 #logo-container{
     display: flex;
     justify-content: center;
@@ -132,11 +119,13 @@ body {
     padding-right: 0;
 }
 
+
 .navbar {
     margin-bottom: 0;
-    width: 100%;
+    width: 100vw; /* Change width to viewport width */
     background-color: rgba(0, 0, 0, .25);
     border: 0;
+    padding: 10px 0; /* Adjust padding as needed */
 }
 
 .navbar .navbar-toggler {
@@ -291,6 +280,12 @@ body {
     height: auto; /* Maintain the aspect ratio */
 
 }
+
+#sellos {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain the aspect ratio */
+
+}
 /* Larger devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
 
@@ -332,6 +327,12 @@ body {
         #sobre-nosotros-img {
             max-width: 100%; /* Adjust the width as needed for smaller screens */
             height: auto; /* Maintain the aspect ratio */
+        }
+
+        #sellos {
+            width: 60%; /* Make the image fill the container */
+            height: auto; /* Maintain the aspect ratio */
+        
         }
 
     #social-networks{
