@@ -244,6 +244,23 @@ body {
 #catalogo-img {
     height: 100px;
 }
+
+/*Sobre nosotros*/
+
+.callout-a{
+    background-color: #217d9e89;
+    background-image: url('../images/bg-romero-bg.jpg');
+    background-size: 120%;
+	
+}
+
+.callout-a h1 {
+    font-size:larger;
+    color:#fafafa;
+    text-shadow: 0px 4px 4px #000000;
+    font-family: "Montserrat", sans-serif;
+}
+
 /* Larger devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
 
