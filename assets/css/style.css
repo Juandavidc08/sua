@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #06191D;
+    background-color: #F4FDFF;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -58,8 +58,9 @@ body {
 
 
 .quote{
-    color:#fff;
+    color:#16161D.;
     margin: 15px 30px;
+    font-weight: 500;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 80%;
@@ -123,7 +124,7 @@ body {
 .navbar {
     margin-bottom: 0;
     width: 100vw; /* Change width to viewport width */
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(0, 0, 0, .85);
     border: 0;
     padding: 10px 0; /* Adjust padding as needed */
 }
@@ -146,7 +147,6 @@ body {
 .callout{
     background-color: #217d9e89;
     background-image: url('../images/bg-lavanda.jpg');
-    color:#fff;
     background-size: 190%;
     color: #DECD9C;
 	text-shadow: 0px 4px 4px #000000;
@@ -156,7 +156,7 @@ body {
 
 .aceites{
     font-family: "Montserrat", sans-serif;
-    color:#fff ;
+    color:#16161D.;
     padding: 1px;
     
 }
@@ -180,7 +180,7 @@ body {
 .product-container-a img {
     max-height: 200px; /* Adjust the height as needed */
     width: auto; /* Maintain aspect ratio */
-    z-index: 1; /* Ensure the image is above the background */
+    z-index: 2; /* Ensure the image is above the background */
 }
 
 .product-container-a img:hover{
@@ -190,7 +190,7 @@ body {
 
 .image-container {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.75);
     height: 70%;
     width: 90%;
     display: flex;
@@ -201,15 +201,20 @@ body {
 }
 
 .price {
-    margin-top: 10px; /* Adjust the spacing between image and price */
+    background-color: #06191D;
+    margin-top: 2px; /* Adjust the spacing between image and price */
     z-index: 1;
-    color: #fff;
+    color: #fafafa;
+    font-weight:700;
+    padding:10px;
+    border-radius: 10px;
+    
 
 }
 
 /*difusores*/
 .difusores{
-    background-color:rgba(0, 0, 0, 0.25);
+    background-color:rgba(0, 0, 0, 0.85);
     height: 100px;
     background-size: 190%;
     color: #fff;
@@ -227,10 +232,12 @@ body {
 }
 
 .cuidado-1{
-    color: #DECD9C;
+    color: #16161D;
     font-family: "Montserrat", sans-serif; 
     text-align: center;
     margin: 5px 20px 1px 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
 
 /*otros productos*/
@@ -269,7 +276,7 @@ body {
 .text-p{
     color: #d7c181;
     text-align: center;
-    background-color:rgba(0, 0, 0, 0.25);;
+    background-color:rgba(0, 0, 0, 0.25);
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     padding: 30px;
@@ -286,6 +293,181 @@ body {
     height: auto; /* Maintain the aspect ratio */
 
 }
+
+/*Contactanos*/
+
+#hero-image-contact{
+    background-color:rgba(0, 0, 0, 0.25);
+    padding-bottom: 15px;
+    
+    
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    color: #bbb5af;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+    color: #bbb5af;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+    color: #bbb5af;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+    color: #bbb5af;
+}
+
+  /* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+    color: #cbc6c1;
+}
+
+
+.ttle {
+    position: relative;
+    margin: 100px 0 25px 0;
+    padding-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 7px;
+    font-family:"Montserrat", sans-serif;
+    color: #d7c181
+}
+
+#form {
+
+    width: 50px;
+    margin: 30px;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875em;
+    width: 300px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    
+    background: transparent;
+    outline: none;
+    color: #726659;
+    
+    border: solid 1px #b3aca7;
+    border-bottom: none;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+
+textarea {
+    width: 300px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    
+    background: transparent;
+    outline: none;
+    
+    color: #726659;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875em;
+    
+    border: solid 1px #b3aca7;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+
+#submit {
+    width: 300px;
+    
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875em;
+    color: #b3aca7;
+    
+    outline:none;
+    cursor: pointer;
+    
+    border: solid 1px #b3aca7;
+    border-top: none;
+}
+
+#submit:hover {
+    color: #e2dedb;
+}
+
 /* Larger devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
 
@@ -330,9 +512,37 @@ body {
         }
 
         #sellos {
-            width: 60%; /* Make the image fill the container */
+            width: 60%; 
             height: auto; /* Maintain the aspect ratio */
         
+        }
+
+        #form {
+            width: 500px;
+            margin: 50px auto 100px auto;
+        }
+
+        input {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.875em;
+            width: 470px;
+        }
+
+        textarea {
+            width: 470px;
+
+        }
+
+        #submit {
+            width: 470px;
+        }
+
+        #hero-image-contact{
+            background-color:rgba(0, 0, 0, 0.25);
+            padding-bottom: 25px;
+            margin: 0 100px;
+            
+            
         }
 
     #social-networks{
