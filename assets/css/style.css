@@ -380,6 +380,16 @@ body {
     background: rgba(255, 255, 255, 0.3); /* Slightly increase transparency on hover */
 }
 
+/*Modal*/
+#productModal .modal-body {
+    font-size: 14px; /* Adjust the font size as needed */
+    line-height: 1.6; /* Adjust the line height as needed */
+}
+
+#productModal .modal-additional-info {
+    margin-top: 10px; /* Adjust the top margin as needed */
+}
+
 /* Larger devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
 
