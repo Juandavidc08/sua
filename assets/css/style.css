@@ -216,7 +216,7 @@ body {
 }
 
 .price {
-    background-color: rgba(222,205,156,0.3);
+    background-color: rgba(222,205,156,0.6);
     margin-top: 2px; /* Adjust the spacing between image and price */
     z-index: 1;
     color: #16161D;
